@@ -44,7 +44,10 @@ class Artist
     songs.each { |song| add_song(song) }
   end
 
+=begin
   def to_param
     name.downcase.gsub(' ', '-')
   end
+=end
+  
 end
